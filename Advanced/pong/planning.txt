@@ -1,0 +1,18 @@
+Pong: A simple game about bouncing a ball similar to tennis.
+    When the ball goes off screen it will create a point to a person on the opposite end of the screen
+    each person controls a rectangle when touching the ball it will bounce it off the rectangle.
+Goals: At the start the ball is in the center of the screen and paddles are in the middle and each player controls a paddle
+    The Players can move the paddle up and down as long as it stays on the screen the ball will move at a randomn direction on start
+    The goal is to score as many points as possible so when a ball goes off screen on the left or right it counts as a point to the adjacent player
+End: The game will not end it would go on until one player quits I could put a score cap but that seems like it wouldn't be fun
+The If statements included will be:
+If the ball hits the paddles the x and y axis are reversed and momentum is kept OR increased by a set number
+If the ball hits the top or bottom of the screen then the Y axis is reversed
+If the pall goes off screen on player 1s side then player two scores and vise versa
+The board, scoring system and any user interface will be static
+The ball and Paddles will be animated
+Events: events occuring in this will be a click or press to start and then arrow keys and WASD controll the paddles
+The first event to start the game will execute a function to begin updating and the keypresses to control the paddles will affect the Y axis movement without any momentum so letting off the key completely stops the movement
+For example on the press of the UP arrow key
+    1) The moment of the Y axis is set to a positive number
+    2) the paddle is animated to move upwards with a hitbox that will allow the ball to bounce
