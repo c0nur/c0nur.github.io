@@ -11,11 +11,36 @@ body {
   position: relative;
 }
 
-#gameItem {
+#ball {
   background-color: teal;
-  width: 50px;
-  height: 50px;
+  width: 30px;
+  height: 30px;
   position: absolute;
-/*   left: 100px; */  /* Uncomment if you want to set a "starting" position */
-/*   top: 100px;  */  /* Uncomment if you want to set a "starting" position */
+   left: 210px;   /* Uncomment if you want to set a "starting" position */ 
+   top: 150px;    /* Uncomment if you want to set a "starting" position */
+   border-radius: 10px;
+}
+#paddleLeft{
+    background-color: white;
+    width: 20px;
+    height: 100px;
+    position: absolute;
+    top: 150px;
+
+    
+}
+#paddleRight{
+    background-color: white;
+    width: 20px;
+    height: 100px;
+    position: absolute;
+    top: 150px;
+    left: 420px;
+}
+
+#score1{
+    position: absolute;
+}
+#score2{
+    position: absolute;
 }
