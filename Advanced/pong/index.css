@@ -4,7 +4,7 @@ body {
 }
 
 #board {
-  width: 440px;
+  width: 660px;
   height: 440px;
   border: 1px solid white;
   background-color: black;
@@ -26,6 +26,7 @@ body {
     height: 100px;
     position: absolute;
     top: 150px;
+    left: 20px;
 
     
 }
@@ -35,12 +36,23 @@ body {
     height: 100px;
     position: absolute;
     top: 150px;
-    left: 420px;
+    left: 620px;
 }
 
 #score1{
     position: absolute;
+    top: 445px;
+    width: 20px;
+    height: 20px;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
 }
 #score2{
     position: absolute;
+    top: 445px;
+    left: 640px;
+    width: 20px;
+    height: 20px;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
 }

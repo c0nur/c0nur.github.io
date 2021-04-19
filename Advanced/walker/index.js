@@ -21,7 +21,9 @@ function runProgram(){
   "DOWN": 83,
   "UP": 87,
   "LEFT": 65,
-  "RIGHT": 68
+  "RIGHT": 68,
+  "arrowDown" : 40,
+  "arrowUp" : 38
 }
   
   // Game Item Objects
