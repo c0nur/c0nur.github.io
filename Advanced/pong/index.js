@@ -185,6 +185,7 @@ $(document).on('keyup', handleKeyUp);                           // change 'event
         }else{
         ballRandomSpeed = -ballRandomSpeed;
         }
+        return ballRandomSpeed;
     }
     function ballPaddleLeftCollide(){
         paddleLeft.bottomY = paddleLeft.y + 100;
