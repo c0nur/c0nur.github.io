@@ -222,6 +222,12 @@ $(document).on('keyup', handleKeyUp);                           // change 'event
     if(score1.score > 7 || score2.score > 7){
     // stop the interval timer
     clearInterval(interval);
+    if(score1.score > 7){
+        alert("player 1 wins!");
+    }
+    else{
+        alert("player 2 wins!");
+    }
 
     // turn off event handlers
     $(document).off();
