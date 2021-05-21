@@ -20,6 +20,8 @@ function runProgram(){
   score1.score = 0;
   var score2 = Object(0, 0, 445, 640, "#score2");
   score2.score = 0;
+  
+
 
    // var leftPositionY = 0;
     //var rightPositionY = 0;
@@ -161,10 +163,12 @@ $(document).on('keyup', handleKeyUp);                           // change 'event
         else if (ball.rightX > board.rightX){
             ballStart();
             score1.score += 1;
+            $("#score1").text(score1.score)
         }
         else if (ball.x < board.x){
             ballStart();
             score2.score += 1;
+            $("#score2").text(score2.score)
         }
     }
     function ballPaddleRightCollide(){
